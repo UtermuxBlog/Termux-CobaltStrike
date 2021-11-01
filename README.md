@@ -1,1 +1,1 @@
-# Termux-CobaltStrike-CN
+# Termux-CobaltStrike
