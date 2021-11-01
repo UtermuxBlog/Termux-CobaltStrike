@@ -3,9 +3,7 @@
 echo "Tips:Please use other teamserver,don't Run teamserver On Termux,if you have root,you can try run teamserver!"
 echo "Update And Install Packages..."
 pkg update -y > /dev/null 2>&1 && pkg i x11-repo wget unzip openjdk-17 -y > /dev/null 2>&1 && pkg i tigervnc -y > /dev/null 2>&1
-echo "Please Setting Up Your VNC Password..."
-vncpasswd
-echo Downloading CobaltStrike...
+echo "Downloading CobaltStrike..."
 cd ~ && mkdir CobaltStrike && cd CobaltStrike
 wget -q https://github.com/2096779623/Termux-CobaltStrike-CN/raw/main/CS.zip
 unzip CS.zip > /dev/null 2>&1
