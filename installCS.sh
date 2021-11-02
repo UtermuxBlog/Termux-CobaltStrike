@@ -7,7 +7,7 @@ echo "Downloading CobaltStrike..."
 cd $HOME
 mkdir CobaltStrike > /dev/null 2>&1
 cd CobaltStrike
-wget https://github.com/2096779623/Termux-CobaltStrike-CN/raw/main/CS.zip -O $HOME/CobaltStrike
+wget https://github.com/2096779623/Termux-CobaltStrike/raw/main/CS.zip
 unzip CS.zip > /dev/null 2>&1
 chmod 777 -R * > /dev/null 2>&1
 echo "You Can Use:vncserver :1 > /dev/null 2>&1 &&  java -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -jar cobaltstrike.jar $* Run The CobaltStrike!"
