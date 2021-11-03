@@ -34,4 +34,4 @@ Then:
 
 
 
-`vncserver :1 > /dev/null 2>&1 && java -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -jar cobaltstrike.jar $*`
+`vncserver :1 && java -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -jar cobaltstrike.jar $*`
