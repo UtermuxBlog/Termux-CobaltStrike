@@ -11,3 +11,4 @@ wget -q https://hub.fastgit.org/2096779623/Termux-CobaltStrike/raw/main/CSCN.zip
 unzip CSCN.zip > /dev/null 2>&1
 chmod 777 -R * > /dev/null 2>&1
 echo "你可以使用:vncserver :1 > /dev/null 2>&1 &&  java -Dfile.encoding=UTF-8 -javaagent:CobaltStrikeCN.jar -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC  -jar cobaltstrike.jar 来运行CobaltStrike!"
+cd ~/CobaltStrikeCN > /dev/null 2>&1
