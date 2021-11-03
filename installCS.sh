@@ -13,4 +13,4 @@ chmod 777 -R * > /dev/null 2>&1
 echo Adding Startup Script...
 echo  vncserver -kill :1 && vncserver :1 && cd ~/CobaltStrikeCN && export DISPLAY=:1 && java -Dfile.encoding=UTF-8 -javaagent:CobaltStrikeCN.jar -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC  -jar cobaltstrike.jar & > $PREFIX/bin/cobaltstrike
 chmod 777 $PREFIX/bin/cobaltstrike
-echo "You Can Use:'cobaltstrike' start the cobaltstrike!
+echo "You Can Run:'cobaltstrike' start the cobaltstrike!
