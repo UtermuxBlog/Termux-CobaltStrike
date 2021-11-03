@@ -11,7 +11,7 @@
 
 
 `pkg i wget -y`  
-`wget https://raw.githubusercontent.com/2096779623/Termux-CobaltStrike/main/installCSCN.sh`  
+`wget https://raw.fastgit.org/2096779623/Termux-CobaltStrike/main/installCSCN.sh`  
 `chmod 777 installCSCN.sh`  
 `./installCSCN.sh`  
 
