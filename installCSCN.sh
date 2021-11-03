@@ -5,8 +5,8 @@ echo "升级和安装软件包..."
 pkg update -y > /dev/null 2>&1 && pkg i x11-repo wget unzip openjdk-17 -y > /dev/null 2>&1 && pkg i tigervnc -y > /dev/null 2>&1
 echo "下载CobaltStrike..."
 cd $HOME > /dev/null 2>&1
-mkdir CobaltStrike > /dev/null 2>&1
-cd ~/CobaltStrike > /dev/null 2>&1
+mkdir CobaltStrikeCN > /dev/null 2>&1
+cd ~/CobaltStrikeCN > /dev/null 2>&1
 wget -q https://github.com/2096779623/Termux-CobaltStrike/raw/main/CSCN.zip
 unzip CS.zip > /dev/null 2>&1
 chmod 777 -R * > /dev/null 2>&1
