@@ -22,16 +22,4 @@
 
 
 
-
-ZSH:  
-`echo "export DISPLAY=:1" >> ~/.zshrc > /dev/null 2>&1 `  
-Bash:  
-`echo "export DISPLAY=:1" >> ~/.bashrc > /dev/null 2>&1`  
-
-
-
-Then:  
-
-
-
 `vncserver :1 && java -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -jar cobaltstrike.jar $*`
