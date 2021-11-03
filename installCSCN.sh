@@ -10,6 +10,8 @@ cd ~/CobaltStrikeCN > /dev/null 2>&1
 wget -q https://hub.fastgit.org/2096779623/Termux-CobaltStrike/raw/main/CSCN.zip
 unzip CSCN.zip > /dev/null 2>&1
 chmod 777 -R * > /dev/null 2>&1
-echo export DISPLAY=:1 > $PREFIX/etc/profile
-echo "你可以使用:vncserver :1 > /dev/null 2>&1 &&  java -Dfile.encoding=UTF-8 -javaagent:CobaltStrikeCN.jar -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC  -jar cobaltstrike.jar 来运行CobaltStrike!"
-cd ~/CobaltStrikeCN > /dev/null 2>&1
+echo 添加启动脚本...
+echo  vncserver -kill :1 && vncserver :1 && cd ~/CobaltStrikeCN && export DISPLAY=:1 && java -Dfile.encoding=UTF-8 -javaagent:CobaltStrikeCN.jar -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC  -jar cobaltstrike.jar & > $PREFIX/bin/cobaltstrike
+chmod 777 $PREFIX/bin/cobaltstrike
+echo 你可以执行:cobaltstrike   来启动cobaltstrike！
+
