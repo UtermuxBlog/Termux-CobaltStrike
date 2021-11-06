@@ -6,16 +6,13 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/2096779623/termux-CobaltStrike/blob/main/LICENSE) 
 
 
-  
+***  
 - [✓] CobaltStrike sessions to Metasploit Framework  
 - [X] Teamserver On Termux(no root)  
 - [✓] Load And Use Scripts  
 - [ ] On XSDL  
-- [✓] Readme-CN
-
-
-
-
+- [✓] Readme-CN  
+***
 #INSTALLATION:
 
 
