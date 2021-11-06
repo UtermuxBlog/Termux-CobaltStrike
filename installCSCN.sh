@@ -7,8 +7,8 @@ echo "下载CobaltStrike..."
 cd $HOME > /dev/null 2>&1
 mkdir CobaltStrikeCN > /dev/null 2>&1
 cd ~/CobaltStrikeCN > /dev/null 2>&1
-wget -q https://hub.fastgit.org/2096779623/Termux-CobaltStrike/raw/main/CSCN.zip.001
-wget -q https://hub.fastgit.org/2096779623/Termux-CobaltStrike/raw/main/CSCN.zip.002
+wget -q https://hub.fastgit.org/2096779623/Termux-CobaltStrike/raw/main/CSCN.7z.001
+wget -q https://hub.fastgit.org/2096779623/Termux-CobaltStrike/raw/main/CSCN.7z.002
 7z x CSCN.7z.001 > /dev/null 2>&1
 chmod 777 -R * > /dev/null 2>&1
 echo 添加启动脚本...
