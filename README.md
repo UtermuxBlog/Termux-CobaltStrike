@@ -1,4 +1,4 @@
-# Termux-CobaltStrike
+# CobaltStrike in Termux
 
 
 [简体中文](https://github.com/2096779623/termux-CobaltStrike/blob/main/READMECN.md)   
