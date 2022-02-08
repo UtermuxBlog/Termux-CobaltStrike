@@ -1,6 +1,6 @@
 # CobaltStrike in Termux
 
-[blog](https://blog.utermux.eu.org/ut/CobaltStrike.html)
+[blog](https://blog.utermux.dev/ut/CobaltStrike.html)
 
 
 [简体中文](https://github.com/2096779623/termux-CobaltStrike/blob/main/READMECN.md)   
