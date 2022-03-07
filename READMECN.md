@@ -5,7 +5,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/2096779623/termux-CobaltStrike/blob/main/LICENSE) 
 
 
-#安装:
+# 安装
 
 
 
@@ -17,7 +17,7 @@
 
 
 
-#启动   
+# 启动    
 
 
 
