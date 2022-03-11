@@ -9,7 +9,7 @@ rm -rf CobaltStrikeCN  > /dev/null 2>&1
 rm $PREFIX/bin/cobaltstrikeCN  > /dev/null 2>&1
 mkdir CobaltStrikeCN > /dev/null 2>&1
 cd ~/CobaltStrikeCN > /dev/null 2>&1
-wget -q https://hub.fastgit.xyz/2096779623/Termux-CobaltStrike/raw/main/CSCN.zip
+wget -q https://hub.fastgit.xyz/UtermuxBlog/Termux-CobaltStrike/raw/main/CSCN.zip
 unzip CSCN.zip > /dev/null 2>&1
 chmod 777 -R * > /dev/null 2>&1
 echo 添加启动脚本...
