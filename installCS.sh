@@ -9,7 +9,7 @@ rm -rf CobaltStrike  > /dev/null 2>&1
 rm $PREFIX/bin/cobaltstrike
 mkdir CobaltStrike > /dev/null 2>&1
 cd CobaltStrike > /dev/null 2>&1
-wget https://github.com/2096779623/Termux-CobaltStrike/raw/main/CS.zip
+wget https://github.com/UtermuxBlog/Termux-CobaltStrike/raw/main/CS.zip
 unzip CS.zip > /dev/null 2>&1
 chmod 777 -R * > /dev/null 2>&1
 echo Adding Startup Script...
