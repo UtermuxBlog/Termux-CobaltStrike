@@ -13,7 +13,6 @@ wget -q https://hub.fastgit.xyz/UtermuxBlog/Termux-CobaltStrike/raw/main/CSCN.zi
 unzip CSCN.zip > /dev/null 2>&1
 chmod 777 -R * > /dev/null 2>&1
 echo 添加启动脚本...
-echo  "vncserver -kill :1 && vncserver :1 && cd ~/CobaltStrikeCN && export DISPLAY=:1 && java -Dfile.encoding=UTF-8 -javaagent:CobaltstrikeCN.jar -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC  -jar cobaltstrike.jar" > $PREFIX/bin/cobaltstrikeCN
+echo  "vncserver -kill :1 & vncserver :1 && cd ~/CobaltStrikeCN && export DISPLAY=:1 && java -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -javaagent:CSAgent.jar=5e98194a01c6b48fa582a6a9fcbb92d6 -Duser.language=en -jar cobaltstrike.jar $*" > $PREFIX/bin/cobaltstrikeCN
 chmod 777 $PREFIX/bin/cobaltstrikeCN
 echo 你可以执行:cobaltstrikeCN   来启动cobaltstrike！
-
