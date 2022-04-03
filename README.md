@@ -7,14 +7,16 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/2096779623/termux-CobaltStrike/blob/main/LICENSE) 
 
+# Why after Android 7?
 
+Because `tigervnc` must run on Android 7 or above, if you want to run CobaltStrike below Android 7, please try to use XSDL
   
 - [✓] CobaltStrike sessions to Metasploit Framework  
 - [√] Teamserver On Termux
 - [✓] Load And Use Scripts  
-- [?] Run on XSDL
+- [✓] Run on XSDL
   
-#INSTALLATION:
+# INSTALLATION
 
 
 
