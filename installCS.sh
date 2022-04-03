@@ -1,6 +1,4 @@
 #/data/data/com.termux/files/usr/bin/bash
-#By 2096779623
-echo "Tips:teamserver must be run with root!"
 echo "Update And Install Packages..."
 pkg update -y > /dev/null 2>&1 && pkg i x11-repo wget unzip openjdk-17 -y > /dev/null 2>&1 && pkg i tigervnc -y > /dev/null 2>&1
 echo "Downloading CobaltStrike..."
