@@ -12,7 +12,7 @@
 - [✓] CobaltStrike sessions to Metasploit Framework  
 - [√] Teamserver On Termux
 - [✓] Load And Use Scripts  
-- [✓] Readme-CN  
+- [?] Run on XSDL
   
 #INSTALLATION:
 
