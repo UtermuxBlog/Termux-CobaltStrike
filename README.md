@@ -10,7 +10,7 @@
 
   
 - [✓] CobaltStrike sessions to Metasploit Framework  
-- [√] Teamserver On Termux(root)
+- [√] Teamserver On Termux
 - [✓] Load And Use Scripts  
 - [✓] Readme-CN  
   
