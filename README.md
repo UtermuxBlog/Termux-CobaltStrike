@@ -7,10 +7,10 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/2096779623/termux-CobaltStrike/blob/main/LICENSE) 
 
-- [✓] CobaltStrike sessions to Metasploit Framework  
-- [√] Teamserver On Termux
-- [✓] Load And Use Scripts  
-- [✓] Run on XSDL
+- [X] CobaltStrike sessions to Metasploit Framework  
+- [X] Teamserver On Termux
+- [X] Load And Use Scripts  
+- [X] Run on XSDL
 
 
 # Why after Android 7?
